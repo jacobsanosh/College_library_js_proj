@@ -103,6 +103,10 @@ f_submit.addEventListener('submit', (event) => {
           <span aria-hidden="true">&times;</span>
         </button>
       </div>`
+        setTimeout(function() {
+                messge.innerHTML = ''
+            },
+            2000)
     } else {
         messge.innerHTML = `<div class="alert alert-danger alert-dismissible fade show" role="alert">
         <strong>something went wrong</strong> You should check the input given below
@@ -110,5 +114,8 @@ f_submit.addEventListener('submit', (event) => {
           <span aria-hidden="true">&times;</span>
         </button>
       </div>`
+        setTimeout(function() {
+            messge.innerHTML = ""
+        }, 2000)
     }
 })
