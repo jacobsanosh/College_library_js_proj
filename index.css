@@ -13,6 +13,12 @@
     padding: 1rem;
 }
 
+@media(max-width:770px) {
+    .btn {
+        margin: 5px;
+    }
+}
+
 @media (max-width:370px) {
     body {
         display: none;
